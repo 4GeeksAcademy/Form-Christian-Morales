@@ -16,40 +16,43 @@
       <form class="container-fluid">
         <div class="row">
           <div class="mb-3 col-5">
-            <label for="exampleFormControlInput1" class="form-label">Card #</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="XXXXXXXXXXXXXXXX"> 
+            <label for="cardNumber" class="form-label">Card #</label>
+            <input type="text" class="form-control" id="cardNumber" placeholder="XXXXXXXXXXXXXXXX"> 
           </div>
           <div class="mb-1 col-3">
-            <label for="exampleFormControlInput1" class="form-label">CVC #</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="0000">
+            <label for="verificationCode" class="form-label">CVC #</label>
+            <input type="text" class="form-control" id="verificationCode" placeholder="0000">
           </div>
           <div class="mb-1 col">
-            <label for="exampleFormControlInput1" class="form-label">Amount</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Amount">
+            <label for="TotalAmount" class="form-label">Amount</label>
+            <div class="input-group">
+              <span class="input-group-text">$</span>
+            <input type="text" class="form-control" id="TotalAmount" placeholder="Amount">
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <label for="exampleFormControlInput1" class="form-label">First Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName">
           </div>
           <div class="col">
-            <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1"> 
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName"> 
           </div>
         </div>
         <div class="row">
           <div class="col-6">
-          <label for="exampleFormControlInput1" class="form-label">City</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1">
+          <label for="city" class="form-label">City</label>
+          <input type="text" class="form-control" id="city">
           </div>
           <div class="col-3">
               <label for="inputState" class="form-label">State</label>
               <select id="inputState" class="form-select">
                 <option selected>Pick a state</option>
                 <option>Lima</option>
-                <option>Arequipa</option>
-                <option>Trujillo</option>
+                <option>Ica</option>
+                <option>Cañete</option>
               </select>
           </div>
           <div class="col-3">
